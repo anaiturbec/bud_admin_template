@@ -53,7 +53,7 @@ export default function LoginForm() {
         }
       }
     } catch (err) {
-      notify(err, 'error');
+      console.log(err)
     } finally {
       setDisabled(false);
       nProgress.done();

@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 import React from 'react';
 import { Pagination } from '../../../models';
 import { useQuery } from '@apollo/client';

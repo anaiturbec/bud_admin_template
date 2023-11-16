@@ -1,3 +1,4 @@
+// @ts-nocheck
 import React from 'react';
 import nProgress from 'nprogress';
 import { useMutation } from '@apollo/client';

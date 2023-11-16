@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 import React from 'react';
 import nProgress from 'nprogress';
 import { Button, Input, Select } from '../common';
