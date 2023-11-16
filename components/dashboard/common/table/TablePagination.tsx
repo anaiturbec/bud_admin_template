@@ -44,13 +44,6 @@ export default function TablePagination({
     }
   };
 
-  const handleGoToLastPage = () => {
-    const { pageInfo } = paginationInfo;
-    if (isManualPagination) handleGoToPage(pageInfo.pageCount);
-    else if (!isManualPagination) {
-      table.setPageIndex(table.getPageCount() - 1);
-    }
-  };
 
   const handleGoToNextPage = () => {
     const { pageInfo } = paginationInfo;

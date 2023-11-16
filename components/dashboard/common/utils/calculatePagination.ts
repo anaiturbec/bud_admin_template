@@ -9,7 +9,7 @@ type TCalculatePagination = {
 export function calculatePagination({
   pageInfo,
   count,
-}: Pagination<any>): TCalculatePagination {
+}: Pagination<any | undefined>): TCalculatePagination {
   const { currentPage, perPage } = pageInfo;
   const current = currentPage * perPage - perPage + 1;
   const limit =
